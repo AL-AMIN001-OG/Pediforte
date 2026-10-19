@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact-us.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <h1>Registration</h1> 
+        <div class="division">
+            <nav id="nav-items">
+                <li>
+                    <ul>
+                        <a href="home.html">Home</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="courses.html">Courses</a>
+                    </ul>
+                </li>
+            </nav>
+        </header>
+        <div class="container"> 
+        <form action="">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                       <div class="input-field">
+                          <label for="First Name">First Name</label>
+                          <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                          <label for="Middle Name">Middle Name</label>
+                          <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                          <label for=" Last Name">Last Name</label>
+                          <input type="text" placeholder="Enter your name" required>
+                        </div>
+                       <div class="input-field">
+                          <label for="Email">Email</label>
+                          <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                          <label for="date">Date Of Birth</label>
+                          <input type="date" placeholder="Enter your date" required>
+                        </div>
+
+                        <div class="input-field">
+                          <label for="mobile number">Mobile No:</label>
+                          <input type="number" placeholder="Enter Mobile Number" required>
+                        </div>
+                        <div class="input-field">
+                          <label for="male">Male</label>
+                          <input type="radio" id="male" name="gender" value="male">
+                          <label for="female">Female</label>
+                          <input type="radio" id="male" name="gender" value="Female">
+                        </div>
+
+                        <div class="input-field">
+                          <label for="username">Username</label>
+                          <input type="text" placeholder="Enter your username" required>
+                        </div>
+
+                        <div class="input-field">
+                          <label for="Age">Age:</label>
+                          <input type="number" placeholder="Enter your age" required>
+                        </div>
+                        
+                         <div class="input-field">
+                          <label for="bio">Bio:</label>
+                          <textarea id="bio" name="bio" rows="5" 
+                          placeholder="Bio here"></textarea>
+                        </div>
+                        
+                         <div class="input-field">
+                          <label for="courses">Choose a Course:</label>
+                          <select name="course" id="course"required>
+                            <option value="">Select a tech course</option>
+                            <option value="Full-Stack Engineering">Full-Stack Engineering</option>
+                            <option value="Ai Automation">Ai Automation</option>
+                            <option value="phython">Phython</option>
+                            <option value="Front-end">Front-end</option>
+                            <option value="Back-end">Back-end</option>
+                            <option value="Robotics">Robotics</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                            <option value="Cyber Security">Cyber Security</option>
+                          </select>
+                        </div>
+
+                        <div class="input-field">
+                          <label for="duration">Select Duration</label>
+                          <select name="duration" id="duration" required>
+                            <option value="">Select duration</option>
+                            <option value="2 Months">2 Months</option>
+                            <option value="4 Months">4 Months</option>
+                            <option value="6 Months">6 Months</option>
+                            <option value="8 Months">8 Months</option>
+                            <option value="12 Months">12 Months</option>
+                          </select>
+                        </div>
+                        <div class="input-field"> 
+                            <label for="tech-savvy">Choose Tech Level</label>
+                            <select name="tech-savvy" id="tech-savvy">
+                             <option value="">Choose tech level</option>
+                             <option value="beginner">Beginner</option>
+                             <option value="intermediate">Intermediate</option>
+                             <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                          <label for="picture">Picture</label>
+                          <input type="file" id="picture" name="picture" accept="images/*">
+                        </div>  
+                    </div>  
+                    
+                                  
+                </div>
+                <button class="sign-upBtn">
+                       <span class="btnText">Sign Up</span>
+                </button>
+            </div>
+        </form>
+      
+    </div>
+</body>
+</html>
